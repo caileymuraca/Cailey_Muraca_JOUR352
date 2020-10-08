@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, h5{
   color: #444;
 }
 
+/*whole page*/
 #container{
   width: 100%;
   max-width: 1200px;
@@ -78,10 +79,12 @@ ul{
   font-size: 1em;
 }
 
+/*education and skills*/
 #degrees #do{
   margin-top: 5px;
 }
 
+/*contact info*/
 .menu{
   display: inline;
   margin: 0px;
@@ -89,6 +92,7 @@ ul{
   text-align: center;
 }
 
+/*unordered list of contact info*/
 #li{
   display: inline;
   margin: 0;
