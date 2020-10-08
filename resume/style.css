@@ -1,64 +1,23 @@
 /*styles for my resume*/
 body, h1, h2, h3, h4, h5{
   font-family: 'Open Sans', arial, sans-serif;
-  color: #444;
   font-size: 1em;
+  font-weight: 400;
+}
+
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /*banner name at top*/
-h1{
+.name{
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
-}
-
-/*headshot*/
-
-/*title*/
-strong{
-  text-transform: uppercase;
-  font-size: 1.5em;
-  color: #33485e;
-  font-weight: 400;
-}
-
-/*section titles*/
-h2{
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: white;
-  background-color: #33485e;
-  font-weight: 400;
-}
-
-/*job titles*/
-h3{
-  font-weight: 600;
-  font-size: 1.5em;
-}
-
-/*job organizations*/
-h4{
-  font-weight: 400;
-  font-size: 1.5em;
-}
-
-/*job dates*/
-h5{
-  font-weight: 400;
-  font-style:italic;
-  font-size: 1em;
-}
-
-/*contact info, skills, education*/
-ul{
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.name{
   border-bottom: 1px solid;
   border-color: #33485e;
   width: 60%;
@@ -66,29 +25,62 @@ ul{
   margin: 0 auto;
 }
 
+/*headshot*/
+
+/*title*/
+.title{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #33485e;
+  font-weight: 600;
+  margin: 20px 0px 0px 0px auto;
+  text-align: center;
+}
+
+/*section titles*/
 .sectionheader{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  background-color: #33485e;
   margin: 20px, 0px, 10px, 0px;
   width: 70%;
   min-width: 300px;
 }
 
-.organization{
-  font-size: 1.25em;
+/*job titles*/
+.jobtitle{
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
+/*job organizations*/
+.organization{
+  font-size: 1.5em;
+  margin: 10px 0px;
+}
+
+/*job dates*/
 .date{
-  margin: 2px 0px 0px 0px;
+  font-style:italic;
+  font-size: 1em;
+  margin: 2px 0px 0px 0px
 }
 
 .description{
   margin: 10px 0px;
 }
 
-.menu{
+/*contact info, skills, education*/
+ul{
+  font-size: 1em;
+}
+
+.menu {
   margin: 0px;
   padding: 0px;
-  text-align: center;
-  display:inline;
+  text-align:center;
+  display: inline;
 }
 
 #degrees #do{
