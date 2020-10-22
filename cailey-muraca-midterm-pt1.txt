@@ -1,0 +1,96 @@
+JOUR352: Midterm
+Part 1: Q&A
+
+Directions:
+
+1.  Use a text editor (like ATOM) to complete this assignment.
+
+2. This assignment is open book.
+
+3.  Answer every question.
+
+4.  If you don't understand what I'm asking for on a question, please ask me.
+
+5. When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.
+
+****
+
+Questions
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+Google is the best search engine in the world.
+
+<a href="https://www.google.com/"Google</a>
+
+
+2.  Describe the purpose of a DIV tag.
+
+The DIV tag is used with a class or id to separate or group together content in an HTML document. You can then attach style attributes to these sections using CSS.
+
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+</head>
+
+  <body>
+    <p></p>
+  </body>
+
+</html>
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+You would put a link to a stylesheet in the head of an HTML page.
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+You put put text, images or DIV tags in the body of an HTML page.
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+<div class="graphicbox">
+</div>
+
+<div id="name">
+</div>
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+<div id="apples" class="fruit">
+</div>
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+.class{
+color: #000000;
+}
+
+
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+<img>
+
+
+10.  Why do we use media queries?
+
+Media queries are used in stylesheets and they allow browsers to run tests that determine the size of a window in order to display media selectively.
+For example, a media query might be used to ensure that an image is remaining fit to the screen, even when the screen itself is getting smaller or larger.
+
+
+11. What is the main difference between a serif and a sans-serif font?
+
+The main difference between serif and sans-serif font is that the edges of serif font include decoration, while the edges of sans-serif font have no decoration.
+
+
+12. Which of the following is a hexadecimal code? To answer, delete the options that are not a hexadecimal code.
+#FFCC33
