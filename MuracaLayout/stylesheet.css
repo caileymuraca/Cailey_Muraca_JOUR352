@@ -11,10 +11,55 @@
 
 #h1{
   font-family: Helvetica, Times, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 15px;
 }
 
 #p{
   font-family: Georgia, Times, serif;
+  font-size: 13px;
+  width: 900px;
+  text-align: justify;
+}
+
+#images{
+  width: 800px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#h2{
+  font-family: Georgia, Times, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#h3{
+  font-family: Georgia, Times, sans-serif;
+  font-size: 13px;
+}
+
+#blockquote{
+  font-family: Georgia, Times, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #008080;
+}
+
+#h4{
+  font-family: Helvetica, Times, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#li{
   font-size: 13px;
 }
