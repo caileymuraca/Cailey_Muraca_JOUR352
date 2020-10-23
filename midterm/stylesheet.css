@@ -1,0 +1,91 @@
+/*styles for midterm*/
+#container{
+  margin: 0 auto;
+  width: 800px;
+  padding-bottom: 50px;
+}
+
+#h1{
+  font-family: "Bree Serif", Georgia, Times, serif;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#h2{
+  font-family: "Bree Serif", Georgia, Times, serif;
+  font-size: 15px;
+  color: #0173B4;
+}
+
+#byline{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: grey;
+  padding-left: 10px;
+}
+
+.story{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#masthead{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#cover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 5%;
+}
+
+#li{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#pullquote{
+  font-family: Staatliches, Arial, sans-serif;
+  font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #0173B4;
+  width: 50%;
+  text-align: center;
+}
+
+#caption{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#graphic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
