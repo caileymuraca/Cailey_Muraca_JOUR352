@@ -1,0 +1,56 @@
+/*styles for resume*/
+
+#titles{
+  color: white;
+  font-family: Oswald;
+}
+
+.jobtitle{
+  font-weight: bold;
+}
+
+.organization{
+  color: #9BBFE8;
+}
+
+.date{
+  font-style: italic;
+  font-size: 15px;
+}
+
+#do{
+  color: #9BBFE8;
+  font-family: Oswald;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#experience{
+  font-family: Oswald;
+  color: #9BBFE8;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#education{
+  font-family: Oswald;
+  color: #9BBFE8;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+  color: #9BBFE8;
+  text-align: center;
+}
